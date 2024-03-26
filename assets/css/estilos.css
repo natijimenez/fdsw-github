@@ -27,6 +27,12 @@ body {
   background-size: cover;
   background-position: center;
 }
+#Mis-trabajos .card-body {
+  height: 190px;
+}
+#Mis-trabajos .card-text {
+  height: 70px;
+}
 
 /* Contacto */
 #Contacto form label {
@@ -35,12 +41,16 @@ body {
 }
 
 @media (max-width: 768px) {
+  #Mis-trabajos .card-body {
+    height: 220px;
+  }
+  #Mis-trabajos .card-text {
+    height: 100px;
+  }
   #Contacto form label {
     font-weight: 400;
   }
-
   .navbar-brand{
     width: 100px;
   }
-
 }
